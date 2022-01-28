@@ -12,6 +12,20 @@
   background-color: wheat;
 }
 
+.gallery-img {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(218, 172, 103);
+  justify-content: space-around;
+  padding: 20px 0;
+  color: wheat;
+  height: 50px;
+  align-items: center;
+}
+
 section {
   padding-top: 5rem;
 }
@@ -24,7 +38,7 @@ body {
 /* navbar */
 nav {
   display: flex;
-  background-color: rgb(236, 141, 103);
+  background-color: rgb(218, 172, 103);
   justify-content: space-around;
   padding: 20px 0;
   color: wheat;
@@ -48,6 +62,7 @@ nav ul li a {
   color: wheat;
   text-decoration: none;
   font-size: 0.8em;
+  align-items: center;
 }
 
 nav ul li a {
