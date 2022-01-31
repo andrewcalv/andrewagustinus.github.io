@@ -123,6 +123,38 @@
           </div>
         </div>
       </div>
+      <section class="my-keyboard">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2> My Keyboards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                  <h4 class="keyboard-name">Keychon K1</h4>
+                  <img src="img/keyboards/pic2.jpg" class="keyboard-img" alt="Keychon K1">
+                  <a href="" class="btn btn-light keyboard-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                  <h4 class="keyboard-name">Keychon K2</h4>
+                  <img src="img/keyboards/pic3.jpg" class="keyboard-img" alt="Keychon K2">
+                  <a href="" class="btn btn-light keyboard-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                  <h4 class="keyboard-name">Keychon K3</h4>
+                  <img src="img/keyboards/pic1.jpg" class="keyboard-img" alt="Keychon K3">
+                  <a href="" class="btn btn-light keyboard-detail-button">Show Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
     <!-- Akhir project -->
 
@@ -252,5 +284,15 @@
     </script>
 
     <script src="script.js"></script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+        max: 25,
+        speed: 900,
+        glare: true,
+      });
+
+    </script>
   </body>
 </html>
