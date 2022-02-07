@@ -1,0 +1,170 @@
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --acsentColor: #ff9100;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* Style navbar */
+
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+
+.nav-dark {
+  background-color: var(--secondaryColor);
+  z-index: 10;
+  transition: 0.8s;
+}
+/* End navbar */
+
+/* Hero */
+.color-acsent {
+  color: var(--acsentColor);
+}
+
+#hero {
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+}
+
+#hero h2 {
+  font-weight: 300;
+}
+
+#hero p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+/* End Hero */
+
+/* Tombol */
+.btn-custom1 {
+  background-color: var(--acsentColor);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+
+.cv {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.social-icon {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+.social-icon-footer {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+/* End Tombol */
+
+/* About */
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--acsentColor);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skills */
+#skill {
+  color: #fff;
+  min-height: 600px;
+  width: 100%;
+}
+
+#skill img {
+  width: 20%;
+  margin: 10px;
+}
+
+#skill .card {
+  background-color: #414588;
+  height: 460px;
+}
+
+#skill .card:hover {
+  background-color: var(--acsentColor);
+}
+
+#skill .skill-content {
+  margin-top: 120px;
+}
+/* End Skill */
+
+/* Sertifikat */
+#sertifikat {
+  margin-top: -170px;
+  padding-top: 270px;
+  padding-bottom: 80px;
+  background-color: var(--secondaryColor);
+}
+
+#sertifikat p,
+a {
+  color: #fff !important;
+  text-decoration: none;
+}
+#sertifikat img {
+  width: 48%;
+  padding: 10px;
+}
+
+/* Akhir sertfikat */
+
+/* Portofolio */
+#portofolio {
+}
+
+#portofolio .container {
+  padding: 80px 10px;
+}
+
+/* akhir portofolio */
+/* Footer */
+.social-icon-footer {
+}
+
+/* Akhr Footer */
